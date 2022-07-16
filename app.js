@@ -15,6 +15,11 @@ const newsRouter = require('./app_server/routes/news');
 const roomsRouter = require('./app_server/routes/rooms');
 
 const app = express();
+
+// HBS helper string equals function
+hbs.registerHelper('ifEquals', function(arg1, arg2, options) {
+  return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+});
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));
 

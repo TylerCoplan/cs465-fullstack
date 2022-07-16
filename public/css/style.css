@@ -402,7 +402,7 @@ hr {
 #contact form {
 	float: right;
 	color: #5a4535;
-	height: 320px;
+	height: 400px;
 	width: 420px;
 	border: 1px solid #5a4535;
 	padding: 19px 19px 6px;
@@ -421,6 +421,13 @@ hr {
 }
 #contact table td.txtarea {
 	vertical-align: top;
+}
+#contact form input[type="radio"] {
+	height: 17px;
+	line-height: 17px;
+	width: 20px;
+	border: 1px solid #5a4535;
+	border-radius: 2px;
 }
 #contact form input {
 	height: 17px;
