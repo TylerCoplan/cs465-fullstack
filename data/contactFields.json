@@ -1,0 +1,40 @@
+[
+    {
+        "field": "Name",
+        "inputType": "text",
+        "class": "txtfield"
+    },
+
+    {
+        "field": "Email",
+        "inputType": "text",
+        "class": "txtfield"
+    },
+
+    {
+        "field": "Subject",
+        "inputType": "text",
+        "class": "txtfield"
+    },
+
+    {
+        "field": "Are you a customer?",
+        "inputType": "radio",
+        "options": [
+            {
+                "option": "Yes",
+                "input" : "radio"
+            },
+            {
+                "option": "No",
+                "input": "radio"
+            }
+        ]
+    },
+    {
+        "field": "Message",
+        "inputType": "textarea",
+        "class": "txtarea"
+    }
+]
+
