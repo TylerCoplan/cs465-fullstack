@@ -17,6 +17,11 @@ const roomsRouter = require('./app_server/routes/rooms');
 const app = express();
 
 // HBS helper string equals function
+/* CITATION 
+   AUTHOR: nwxdev, mihail
+   SOURCE: Stack Overflow
+   Accessed on 7/16/2022 at https://stackoverflow.com/questions/34252817/handlebarsjs-check-if-a-string-is-equal-to-a-value
+*/
 hbs.registerHelper('ifEquals', function(arg1, arg2, options) {
   return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
 });
