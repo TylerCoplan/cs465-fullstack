@@ -1,12 +1,17 @@
-import { Injectable } from "@angular/core";
+import { Injectable, Inject } from "@angular/core";
 import { Http } from "@angular/http";
 
+import { Authresponse } from "../models/Authresponse";
+import { BROWSER_STORAGE } from "../storage";
 import { Trip } from "../models/trip";
+import { User } from "../models/user";
 
 @Injectable()
 export class TripDataService {
 
-  constructor(private http: Http) { }
+  constructor(private http: Http,
+    @Inject(BROWSER_STORAGE) private storage: Storage
+    ) { }
   private apiBaseUrl = 'http://localhost:3000/api/';
   private tripUrl = `${this.apiBaseUrl}trips/`;
 
@@ -52,4 +57,20 @@ export class TripDataService {
     return Promise.reject(error.message || error);
   }
 
+  public login(user: User): Promise<Authresponse> {
+    return this.makeAuthApiCall("login", user);
+  }
+
+  public register(user: User): Promise<Authresponse> {
+    return this.makeAuthApiCall("register", user);
+  }
+
+  private makeAuthApiCall(urlPath: string, user: User): Promise<Authresponse> {
+    const url: string = `${this.apiBaseUrl}/${urlPath}`;
+    return this.http
+      .post(url, user)
+      .toPromise()
+      .then((response) => response.json() as Authresponse)
+      .catch(this.handleError);
+  }
 }
