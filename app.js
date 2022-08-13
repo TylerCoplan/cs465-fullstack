@@ -65,11 +65,6 @@ app.use('/news', newsRouter);
 app.use('/rooms', roomsRouter);
 app.use('/api', apiRouter);
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
-
 // catch unauthorized error and create 401
 app.use((err, requ, res, next) => {
   if (err.name === 'UnauthorizedError') {
@@ -77,7 +72,13 @@ app.use((err, requ, res, next) => {
       .status(401)
       .json({"message": err.name + ": " + err.message});
   }
-})
+});
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
