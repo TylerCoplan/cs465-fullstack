@@ -156,8 +156,6 @@ development skills and working my way through the various issues faced in this c
 to my Github portfolio will show that I am continuing to learn, continuing to develop, and that makes me more
 marketable to potential employers.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
