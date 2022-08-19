@@ -28,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/TylerCoplan/cs465-fullstack">
+  <a href="https://github.com/TylerCoplan/cs465-fullstack/">
     <img src="public/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/public/images/dive-site.png)
+[![Product Name Screen Shot][product-screenshot]](public/images/dive-site.png)
 
 This website is the start of a full-stack web application with a customer facing public site for booking
 trips and an administrative application for managing the MongoDB backend.
@@ -210,8 +210,7 @@ Project Link: [https://github.com/TylerCoplan](https://github.com/TylerCoplan)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
+* [Othneil Drew for this amazing readme template](https://github.com/othneildrew/Best-README-Template)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
