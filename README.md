@@ -68,7 +68,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](public/images/dive-site.png)
+<br />
+<div align="center">
+  <a href="https://github.com/TylerCoplan/cs465-fullstack/">
+    <img src="public/images/dive-site.png" alt="Logo" width="160" height="160">
+  </a>
+  <br>
+</div>
 
 This website is the start of a full-stack web application with a customer facing public site for booking
 trips and an administrative application for managing the MongoDB backend.
