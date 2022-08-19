@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/TylerCoplan/cs465-fullstack/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -214,7 +214,7 @@ Project Link: [https://github.com/TylerCoplan](https://github.com/TylerCoplan)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Othneil Drew for this amazing readme template](https://github.com/othneildrew/Best-README-Template)
+* [Othneil Drew for this amazing readme template](https://github.com/TylerCoplan/cs465-fullstack)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -230,16 +230,16 @@ Project Link: [https://github.com/TylerCoplan](https://github.com/TylerCoplan)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TylerCoplan/cs465-fullstack.svg?style=for-the-badge
 [contributors-url]: https://github.com/TylerCoplan/cs465-fullstack/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/TylerCoplan/cs465-fullstack.svg?style=for-the-badge
+[forks-url]: https://github.com/TylerCoplan/cs465-fullstack/network/members
+[stars-shield]: https://img.shields.io/github/stars/TylerCoplan/cs465-fullstack.svg?style=for-the-badge
+[stars-url]: https://github.com/TylerCoplan/cs465-fullstack/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TylerCoplan/cs465-fullstack.svg?style=for-the-badge
+[issues-url]: https://github.com/TylerCoplan/cs465-fullstack/issues
+[license-shield]: https://img.shields.io/github/license/TylerCoplan/cs465-fullstack.svg?style=for-the-badge
+[license-url]: https://github.com/TylerCoplan/cs465-fullstack/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: www.linkedin.com/in/tyler-coplan
 [product-screenshot]: images/screenshot.png
